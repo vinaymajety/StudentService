@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-huhuhuh
+
 @Component
 public class DataLoaderService implements ApplicationRunner {
 
