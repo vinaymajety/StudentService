@@ -18,6 +18,7 @@ public class DataLoaderService implements ApplicationRunner {
     private StudentRepository studentRepository;
 
     public void run(ApplicationArguments args) {
+        
         Course course1 = new Course("Course1", "Spring", "10 Steps", Arrays
                 .asList("Learn Maven", "Import Project", "First Example",
                         "Second Example"));
@@ -28,7 +29,7 @@ public class DataLoaderService implements ApplicationRunner {
                 Arrays.asList("Learn Maven", "Learn Spring",
                         "Learn Spring MVC", "First Example", "Second Example"));
         Course course4 = new Course("Course4", "Maven",
-                "Most popular maven course on internet!", Arrays.asList(
+                "Most popular maven course on internet", Arrays.asList(
                 "Pom.xml", "Build Life Cycle", "Parent POM",
                 "Importing into Eclipse"));
 
