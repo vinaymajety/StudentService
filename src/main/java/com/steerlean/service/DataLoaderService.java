@@ -29,7 +29,7 @@ public class DataLoaderService implements ApplicationRunner {
                 Arrays.asList("Learn Maven", "Learn Spring",
                         "Learn Spring MVC", "First Example", "Second Example"));
         Course course4 = new Course("Course4", "Maven",
-                "Most popular maven course on internet", Arrays.asList(
+                "Most popular maven course on internet hello", Arrays.asList(
                 "Pom.xml", "Build Life Cycle", "Parent POM",
                 "Importing into Eclipse"));
 
